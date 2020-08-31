@@ -2,7 +2,7 @@ RIGHT = -1
 LEFT = 1
 UP = 1
 DOWN = -1
-isPossible = False
+is_possible = False
 
 def solution(key, lock):
     for _ in range(4):
@@ -37,7 +37,7 @@ def moveKey(to_y, to_x, key, lock, check_board):
     print('\n'.join(map(str, new_key)))
 
     if isRightKey(new_key, lock):
-        isPossible = True    
+        is_possible = True    
         return
     
     moveKey(to_y + UP, to_x, key, lock, check_board)
