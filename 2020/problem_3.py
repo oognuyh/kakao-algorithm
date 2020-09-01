@@ -33,9 +33,6 @@ def moveKey(to_y, to_x, key, lock, check_board):
 
     check_board.append(temp)
 
-    print('- ' * 10)
-    print('\n'.join(map(str, new_key)))
-
     if isRightKey(new_key, lock):
         is_possible = True    
         return
