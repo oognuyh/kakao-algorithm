@@ -38,8 +38,3 @@ def search(query, trie):
         if character == '?': return cur.get('count', 0)
         elif character not in cur: return 0
         else: cur = cur[character]
-        
-if __name__ == "__main__":
-    words = ["frodo", "front", "frost", "frozen", "frame", "kakao"]
-    queries = ["fro??", "????o", "fr???", "fro???", "pro?"]
-    print(solution(words, queries))
