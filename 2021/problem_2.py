@@ -25,7 +25,3 @@ def solution(orders, course) -> list:
 
     # 오름차순 정렬 후 반환
     return sorted(answer)
-
-
-
-print(solution(["XYZ", "XWY", "WXA"], [2,3,4]))
