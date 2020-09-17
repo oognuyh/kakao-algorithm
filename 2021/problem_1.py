@@ -35,6 +35,3 @@ def remove_period(new_id) -> str:
     # 처음과 끝이 마침표라면 제거 후 반환
     return new_id.strip('.') 
 
-print(solution("...!@BaT#*..y.abcdefghijklm"))
-
-
