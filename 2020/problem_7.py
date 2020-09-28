@@ -81,6 +81,3 @@ def is_end(board, robot) -> bool: # coord is goal
 def is_vertical(robot) -> bool: 
     x1, x2 = robot[0][0], robot[1][0]
     return True if x1 == x2 else False
-
-if __name__ == "__main__":
-    print(solution([[0, 0, 0, 1, 1],[0, 0, 0, 1, 0],[0, 1, 0, 1, 1],[1, 1, 0, 0, 1],[0, 0, 0, 0, 0]]))
